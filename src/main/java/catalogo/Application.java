@@ -13,7 +13,7 @@ public class Application {
         EntityManager entityManager = emf.createEntityManager();
 
         System.out.println("Connessione avviata correttamente!");
-        System.out.println("Controlla pgAdmin: Hibernate dovrebbe aver creato le tabelle.");
+        System.out.println("Hello World");
 
         entityManager.close();
         emf.close();
