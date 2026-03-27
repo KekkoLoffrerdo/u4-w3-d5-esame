@@ -1,4 +1,7 @@
 package entities;
 
-public class Periodicita {
+public enum Periodicita {
+    SETTIMANALE,
+    MENSILE,
+    SEMESTRALE
 }
