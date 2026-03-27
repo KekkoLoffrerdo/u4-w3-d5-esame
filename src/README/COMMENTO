@@ -1,0 +1,7 @@
+Ho scelto di utilizzare la strategia di ereditarietà di tipo joinedin modo che la tabella padre avesse solo gli attributi comuni,
+inoltre ho modellato il codice iSBN come attributo univoco, mentre la tabella prestiti è a se perchè contiene attributi propri
+Spiegazione dettagliata:
+Tabella elementi_catalogo contiene gli attributi comuni a libri e riviste ho utilizzato UUID come chiave primaria
+Tabelle libri e riviste sono collegate alla tabella elementi_catalogo tramite la chiave primaria
+Tabella utenti rapèrestenta ovviamente gli utenti del sistema e ogni utente è identificato come UUID
+Tabella prestiti rappresenta la relazione tra utenti ed elementi del catalogo e ogni prestito è associato ad un utente e ad un elemento
